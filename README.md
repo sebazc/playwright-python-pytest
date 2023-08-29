@@ -8,7 +8,9 @@ This project is a demonstration of how to set up a simple test automation enviro
 * pytest-html-reporter
 
 ## Test object
-The page used for testing purposes is: [Polymer Shop](https://shop.polymer-project.org/), an E-commerce site which is part of the repository [awesome-sites-to-test-on](https://github.com/BMayhew/awesome-sites-to-test-on). My appreciation to them for building the website and making it public.
+The page used for testing purposes is [Polymer Shop](https://shop.polymer-project.org/), an e-commerce site which is part of the repository [awesome-sites-to-test-on](https://github.com/BMayhew/awesome-sites-to-test-on). My appreciation to them for building the website and making it public.
+
+The test cases being automated in this sample can be seen in the following <a href="https://docs.google.com/spreadsheets/d/1Yw4RZhlJadAuDd0H-srGgfOUAO1_9h3NVO88YOhAWUQ/edit#gid=0" target="_blank">test cases sheet</a>.
 
 ## Test code approach
 The project follows a Page Object Model pattern. On one side, each page has a class containing the elements of the page (locators) and methods for interacting with the elements. On the other side, tests are defined, and each test instantiates the page as needed so to interact with it. Assertions (using playwright "expect" object) are performed in the tests, and only attributes and methods from the page classes are used, thus keeping references to the website within the page classes only.
