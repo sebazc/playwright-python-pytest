@@ -8,7 +8,7 @@ This project is a demonstration of how to set up a simple test automation enviro
 * pytest-html-reporter
 
 ## Test object
-The page used for testing purposes is [Polymer Shop](https://shop.polymer-project.org/), an e-commerce site which is part of the repository [awesome-sites-to-test-on](https://github.com/BMayhew/awesome-sites-to-test-on). My appreciation to them for building the website and making it public.
+The page used for testing purposes is [Polymer Shop](https://shop.polymer-project.org/), an e-commerce site which is part of the repository [awesome-sites-to-test-on](https://github.com/BMayhew/awesome-sites-to-test-on). Thanks to them for building the website and making it public.
 
 The test cases being automated in this sample can be seen in the following <a href="https://docs.google.com/spreadsheets/d/1Yw4RZhlJadAuDd0H-srGgfOUAO1_9h3NVO88YOhAWUQ/edit#gid=0" target="_blank">test cases sheet</a>.
 
